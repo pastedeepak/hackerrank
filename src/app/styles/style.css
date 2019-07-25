@@ -1,0 +1,1749 @@
+/* Styles go here */
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+.ui-grid-header-cell,.ui-grid-cell{
+max-width:180px !important;
+min-width:180px !important;
+}
+
+td,th{
+  font-size: 18px;
+}
+button{
+  text-align: center;
+}
+input{
+margin:0px 0px 20px 0px!important;
+}
+
+@font-face {
+    font-family: openSans;
+    src: url("./../font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: rockWell;
+    src: url("./../font/Rockwell.ttf");
+}
+
+body{
+	font-family: openSans;
+	padding: 0px;
+	margin: 0px;
+	background: url("./../images/page_bg.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #00305a;
+}
+
+.main{
+  margin: 0 auto;
+  width: 95%;
+  height: auto;
+  overflow: hidden;
+  clear:both;
+}
+
+.mainBody{
+  padding: 20px 0px 0px 0px;
+}
+
+.header{
+  float:left;
+  width:auto;
+  height: auto;
+}
+
+.headerTitle{
+  width: 40%;
+  float:left;
+}
+
+.headerFontSelection{
+  width: 15%;
+  float:left;
+  padding: 0px 0px 0px 10px !important;
+}
+
+.headerFontSelection img{
+  width: 120px;
+  height: auto;
+}
+
+.headerNav{
+  width: 40%;
+  float:left;
+  font-size: 12px;
+  position: absolute;
+  right: 5%;
+  text-align: right;
+}
+
+.headerNav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  right: 0px;
+}
+
+.headerNav ul li{
+  display:inline;
+}
+
+.headerNav ul li a{
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+  padding-right: 8px;
+  border-right: 1px solid grey;
+}
+
+.headerNav ul li:last-child a{
+  border-right: none;
+}
+
+.headerNav ul li a:hover{
+  text-decoration: none;
+  color: #669900;
+}
+
+.headerLanguageDrop{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 0 !important;
+  background-color: #d5d5d5;
+  color: 000000;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 8px;
+  width: 150px !important;
+  height:40px !important;
+  margin-left: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+    
+  cursor: pointer;
+  background: #d5d5d5 url("./../images/drop-down-arrow.png") no-repeat right;
+}
+
+.fontSelection{
+  color: #d5d5d5;
+}
+
+.font14{
+  font-size: 14px;
+}
+.font18{
+  font-size: 18px;
+}
+.font24{
+  font-size: 24px;
+}
+
+/* ---------------------------------------------------- */
+
+.pageTitleSection{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 4%;
+  color: #272727;
+}
+
+/* ***************************************** */
+
+.serviceSection{
+  float:left;
+  width:100%;
+  height: auto;
+  margin: 0px 0px 50px;
+}
+
+.service-exploreUs{
+  float:left;
+  position: relative;
+  width: 30%;
+  margin-right: 3%;
+}
+
+.service-exploreUs-icon{
+  position:relative;
+  width: 100%;
+  text-align:center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.service-exploreUs-details{
+  position:relative;
+  width: 100%;
+  text-align:center;
+  background: #669900;
+  border: 1px solid #669900;
+  border-radius: 5px;
+  margin: 10px 0px;
+  color: white;
+  height: 158px;
+}
+
+.service-exploreUs-details:hover{
+  background: #00305a;
+  border: 1px solid #00305a;
+  cursor: pointer;
+}
+
+.service-exploreUs-title{
+  position:relative;
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+  border-bottom: 1px solid #ffffff;
+  font-size: 18px;
+}
+
+.service-exploreUs-desc{
+  margin: 0 auto;
+  padding: 10px;
+  width: 85%;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* ********************************** */
+.service-understand-you{
+  float:left;
+  position: relative;
+  width: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.service-understandYou-icon{
+  position:relative;
+  width: 100%;
+  margin: 0 auto;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.service-understandYou-details{
+  position:relative;
+  width: 100%;
+  text-align:center;
+  background: #669900;
+  border: 1px solid #669900;
+  border-radius: 5px;
+  margin: 10px 0px;
+  color: white;
+  min-height: 158px;
+}
+
+.service-understandYou-details:hover{
+  background: #00305a;
+  border: 1px solid #00305a;
+  cursor: pointer;
+}
+
+
+.service-understandYou-title{
+  position:relative;
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+  border-bottom: 1px solid #ffffff;
+  font-size: 18px;
+}
+
+.service-understandYou-desc{
+  margin: 0 auto;
+  padding: 10px;
+  width: 85%;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* *********************************** */
+
+.service-discover-yourself{
+  float:left;
+  position: relative;
+  width: 30%;
+  margin-left: 3%;
+}
+
+.service-discoverYourself-icon{
+  position:relative;
+  width: 100%;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.service-discoverYourself-details{
+  position:relative;
+  width: 100%;
+  text-align:center;
+  background: #669900;
+  border: 1px solid #669900;
+  border-radius: 5px;
+  margin: 10px 0px;
+  color: white;
+  min-height: 157px;
+}
+
+.service-discoverYourself-details:hover{
+  background: #00305a;
+  border: 1px solid #00305a;
+  cursor: pointer;
+}
+
+
+.service-discoverYourself-title{
+  position:relative;
+  margin: 0 auto;
+  padding: 10px;
+  width: 80%;
+  border-bottom: 1px solid #ffffff;
+  font-size: 18px;
+}
+
+.service-discoverYourself-desc{
+  margin: 0 auto;
+  padding: 10px;
+  width: 85%;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* **************************************** */
+.loginBannerScroll{
+  width: 96%;
+  float:left;
+  position: relative;
+  left: 2%;
+}
+
+.loginBannerImg{
+  width: 100%;
+  height: auto;
+}
+
+.loginBannerBackNav{
+  float: left;
+  position: relative;
+  top: 140px;
+  left: 10px;
+}
+
+.loginBannerNextNav{
+  float: right;
+  position: relative;
+  bottom: 151px;
+  right: 10px;
+}
+
+.loginBannerNavInactive{
+  opacity: 0.2;
+}
+
+.loginIconSection{
+  float:left;
+  width:100%;
+  height: auto;
+  margin: 0px 0px 50px;
+
+}
+
+.loginSection{
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.loginTable{
+  width: 95%;
+}
+
+.loginTable td{
+  height: 120px;
+  background-color: #669900;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align:center;
+  vertical-align:middle;
+  padding: 10px 30px;
+}
+
+.loginTable img{
+  margin: 25px;
+}
+
+.loginFont-24{
+	font-size: 24px;
+}
+
+.loginFont-18{
+	font-size: 18px;
+}
+
+.fullWidthSection_social
+{
+  float: left;
+  position:relative;
+  width: 100%;
+  background-color: #00305a;
+  height: 70px;
+  color: #ffffff;
+}
+
+.fullWidthSection_social table{
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+
+.fullWidthSection_social img{
+  margin: 0 15px;
+}
+
+
+.fullWidthSection_social td{
+  vertical-align: middle;
+  text-align:center;
+  color: #ffffff;
+}
+
+.fullWidthSection_contact{
+  float: left;
+  position:relative;
+  width: 100%;
+  background-color: #669900;
+  height: 70px;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.fullWidthSection_contact table{
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+
+
+.fullWidthSection_contact img{
+  margin: 0 5px;
+}
+
+.fullWidthSection_contact td{
+  vertical-align: middle;
+  text-align:center;
+  color: #ffffff;
+}
+
+
+.fullWidthSection_login
+{
+  float: left;
+  position:relative;
+  width: 100%;
+  background-color: #669900;
+  margin: 20px 0 0 0;
+  height: 70px;
+  color: #ffffff;
+}
+
+.fullWidthSection_login table{
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+
+.fullWidthSection_login a{
+  padding: 5px 30px;
+  width: 95px;
+  height: 30px;
+  background-color: #00305a;
+  color: #669900;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.fullWidthSection_login td{
+  vertical-align: middle;
+  text-align:center;
+  color: #ffffff;
+}
+
+.loginControl{
+  float: left;
+  position:relative;
+  width: 100%;
+  font-size: 14px;
+}
+
+.loginInputTxt{
+  width: 159px;
+  border: 1px solid #669900;
+  border-radius: 5px;
+  color: #00305a;
+  font-size: 14px;
+  text-align: center;
+  height: 30px;
+}
+
+.loginExisting, .loginCredential{
+  display: none;
+}
+
+/* **************************************** */
+
+.confirmationBanner{
+  width: 100%;
+}
+
+
+.confirmationBanner img{
+  max-width: 100%;
+  min-width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+
+.bankingLoginBanner{
+  width: 100%;
+}
+
+.bankingLoginBanner img{
+  max-width: 100%;
+  min-width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  object-fit: cover;;
+}
+
+.confirmationOuter{
+  height: 330px !important;
+}
+
+.fundingBannerHeaderText{
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 20px;
+  color: #1d9a8f;
+}
+
+.fontBanner{
+  font-family: rockWell;
+  font-size: 30px;
+}
+
+/* **************************************** */
+
+.progressBar{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5px;
+  float: left;
+  text-align:center;
+}
+
+.progressBarInner{
+  width: 98%;
+  margin: 0 auto;
+}
+
+.progressBarBorder{
+  border-bottom:2px solid #669900;
+}
+
+.progressBarInactive{
+  opacity: 0.5;
+}
+
+.progressBarInactiveBorder{
+  border-bottom:2px solid #cbc9cf;
+}
+
+.progressBarSection{
+  width: auto;
+  color: #272727;
+  padding-left: 10px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  position: relative;
+  font-size: 14px;
+  margin: 0 auto;
+  float: none;
+  display: inline-block;
+  margin-left: -6px;
+}
+
+.progressBarIndex{
+  padding:10px 0px 10px 0px;
+}
+
+.progressBarIcon{
+  padding:10px 0px 10px 0px;
+}
+
+.confirmationStatus{
+  float:left;
+  position:relative;
+  margin: 15px 0 30px 0;
+  font-size: 18px;
+  color: #669900;
+  width: 100%;
+  text-align: center;
+}
+
+.resumeLater{
+  float:left;
+  position:relative;
+  margin: 30px 0;
+  font-size: 14px;
+
+  width: 100%;
+  text-align: center;
+}
+
+.resumeLater a{
+  padding: 5px 10px;
+  background-color: #669900;
+  width: 100%;
+  border-radius: 20px;
+  color: #ffffff !important;
+}
+
+.errorStatus{
+  float:left;
+  position:relative;
+  margin: 5px 0 10px 0;
+  font-size: 18px;
+  color: red;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  display: none;
+}
+
+.confirmationMsg{
+  float:left;
+  position:relative;
+  margin: 5px 0 10px 0;
+  font-size: 18px;
+  color: #00305a;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  display: none;
+
+}
+
+.mainBodyOTPOuter{
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 290px;
+  max-height: 300px;
+  left: 25%;
+  margin: 5% 0;
+}
+
+.mainBodyOTPInner{
+  float: left;
+  position: relative;
+  width: 50%;
+  background-color: #00305a;
+  border: 1px solid #00305a;
+  border-radius: 5px;
+  margin: 0px 15px;
+  height: 100%;
+}
+
+.otpUserForm{
+  width: 100%;
+  margin: 14% auto;
+  text-align: center;
+}
+
+.onlineBanking_login{
+  width: 100%;
+  text-align: center;
+}
+
+
+.contactDetailsOuter{
+	height:600px !important;
+}
+
+.personalDetailsOuter{
+	height: 200px !important;
+}
+
+.termsConditionsOuter{
+ 	height: 450px !important;
+}
+
+.mainBodyOuter{
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 290px;
+}
+
+.mainBodyBackNav{
+  float: left;
+  position: relative;
+  width: auto;
+  margin: 0 2%;
+  top: 15%;
+  cursor: pointer;
+}
+
+.mainBodyNextNav{
+  float: left;
+  position: relative;
+  width: auto;
+  margin: 0 2%;
+  top: 15%;
+  cursor: pointer;
+}
+
+.mainBodyBackNavTerms{
+  top: 30% !important;
+}
+
+.mainBodyNextNavTerms{
+  top: 30% !important;
+}
+
+.mainBodyBackNavConfirmation{
+  top: 35% !important;
+}
+
+.mainBodyNextNavConfirmation{
+  top: 35% !important;
+}
+
+.mainBodyBackNavContact{
+  top: 3% !important;
+}
+
+.mainBodyNextNavContact{
+  top: 3% !important;
+}
+
+.mainBodyBackNavPersonal{
+  top: 34% !important;
+}
+
+.mainBodyNextNavPersonal{
+  top: 34% !important;
+}
+
+.mainBodyBackNavPrimary{
+  top: 24% !important;
+}
+
+.mainBodyNextNavPersonalPrimary{
+  top: 24% !important;
+}
+
+
+.mainBodyNextNavFunding{
+  top: 24% !important;
+}
+
+
+.statusMsg{
+  float: left;
+  position:relative;
+  color: #669900;
+  font-size: 14px;
+  font-style: italic;
+  width: 100%;
+  left: 45%;
+  margin: 15px 0px
+}
+
+.mainBodyBackNavInactive{
+  opacity: 0.5;
+  cursor: initial;
+}
+
+.mainSummaryOuterBody{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #669900;
+ 	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.mainSummaryInnerBody{
+	float: left;
+	position:relative;
+	padding: 15px 0px 15px 0;
+	margin: 0 auto;
+	width: 99%;
+	color: #00305a;
+	font-size: 14px;
+}
+
+.mainSummaryInnerBody table{
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.summaryHeader{
+	color: #ffffff;
+}
+
+.summaryDesc td{
+	padding: 10px 15px 10px 10px;
+
+}
+
+.continueWrapper{
+	float: left;
+	position:relative;
+	width:100%;
+	margin: 10px 0px 0px 0px;
+}
+
+.summaryContinue{
+  width: 12%;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  border:1px solid #669900;
+  border-radius: 30px;
+  background-color: #669900;
+  padding: 10px;
+  font-size: 14px;
+  margin: 15px auto;
+  position:relative;
+  float:left;
+  left: 43%;
+}
+
+.mainBodyInner{
+  float: left;
+  position: relative;
+  width: 80%;
+  background-color: #00305a;
+  border: 1px solid #00305a;
+  border-radius: 5px;
+  margin: 0px 15px;
+  height: 100%;
+}
+
+.mainBodyPersonalDetails, .mainBodyContactDetails, .mainBodyTermsConditions{
+  background-color:transparent;
+  border: none;
+}
+
+.personalInfoInput{
+  width: 99%;
+  border: 1px solid #00305a;
+  border-radius: 5px;
+  background-color: #00305a;
+  color: #ffffff;
+  text-align: center;
+  height: 30px;
+}
+
+
+.select-style {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #00305a;
+    color: #ffffff;
+    -webkit-appearance: none;
+}
+
+.select-style select {
+    width: 100%;
+    height: 30px;
+    padding: 5px 8px;
+    border: none;
+    box-shadow: none;
+    background-color: #00305a;
+    color: #ffffff;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+
+.mainBodyPersonalDetails input::-webkit-input-placeholder {
+  text-align: center;
+  color: #ffffff;
+}
+.mainBodyPersonalDetails input:-moz-placeholder { /* Firefox 18- */
+  text-align: center;
+  color: #ffffff;
+}
+.mainBodyPersonalDetails input::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;
+  color: #ffffff;
+}
+.mainBodyPersonalDetails input:-ms-input-placeholder {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* *********************************************** */
+.personalDetailsRow1, .personalDetailsRow2, .personalDetailsRow3, .personalDetailsRow4{
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 0 5px 0;
+}
+
+.contactDetailsRow1, .contactDetailsRow2{
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0 0 5px 0;
+}
+
+.contactDetailsRow3, .contactDetailsRow4, .contactDetailsRow5
+{
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 10px 0 5px 0;
+
+}
+
+.contactDetailsTerms1{
+  padding-top: 10px;
+  height: 20px;
+}
+
+.contactDetailsTerms2{
+  padding-top: 10px;
+  height: 20px;
+}
+
+.contactDetailsTerms3{
+  padding-top: 10px;
+  height: 270px;
+}
+
+.contactDetailsTerms4{
+  height: 100px;
+}
+/* ************************************************** */
+
+.onlineBankingFooterContact{
+  float: left;
+  position:relative;
+  width: 100%;
+  background-color: #669900;
+  height: 70px;
+  color: #ffffff;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.onlineBankingFooterContact table{
+  width: 100%;
+}
+
+.onlineBankingOuter{
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 290px;
+  max-height: 300px;
+  left: 25%;
+  margin: 5% 0;
+}
+
+.onlineBankingInner{
+  float: left;
+  position: relative;
+  width: 50%;
+  background-color: #00305a;
+  border: 1px solid #00305a;
+  border-radius: 5px;
+  margin: 0px 15px;
+  /* height: 100%; */
+  padding: 20px 0;
+}
+
+.onlineBankingInfo{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 21px;
+}
+
+
+.onlineBankingUserForm{
+  width: 100%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.onlineBankingInputRow{
+  width: 67%;
+  float:left;
+  position:relative;
+  text-align:right;
+}
+
+.onlineBankingInputRowError{
+  width: 25%;
+  float: left;
+  position:relative;
+  text-align: left;
+  color: #669900;
+  font-size: 14px;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.onlineBankingInputText{
+  background-color: #00305a;
+  width: 50%;
+  margin:10px 0;
+  color: #ffffff;
+  outline: none;
+  text-align: center;
+  border:1px solid #ffffff;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.onlineBankingInputText::-webkit-input-placeholder {
+  text-align: center;
+}
+.onlineBankingInputText::-moz-placeholder { /* Firefox 18- */
+  text-align: center;
+}
+.onlineBankingInputText::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;
+}
+.onlineBankingInputText::-ms-input-placeholder {
+  text-align: center;
+}
+
+.onlineBankingSubmit{
+  width: 49%;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  border:1px solid #669900;
+  border-radius: 30px;
+  background-color: #669900;
+  padding: 2px;
+  font-size: 14px;
+  margin: 15px auto;
+  float: right;
+
+}
+
+/* *********************************************** */
+
+.confirmInfo{
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 21px;
+}
+
+
+.confirmUserForm{
+  width: 100%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.confirmUserInputRow{
+  width: 67%;
+  float:left;
+  position:relative;
+  text-align:right;
+}
+
+.confirmUserInputRowError{
+  width: 25%;
+  float: left;
+  position:relative;
+  text-align: left;
+  color: #669900;
+  font-size: 14px;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.confirmUserInputText{
+  background-color: #00305a;
+  border-width:0px;
+  border-bottom:1px solid rgba(54, 178, 81, 0.2);
+  width: 50%;
+  margin:10px 0;
+  color: #ffffff;
+  outline: none;
+  text-align: center;
+}
+
+.confirmUserInputText::-webkit-input-placeholder {
+  text-align: center;
+}
+.confirmUserInputText:-moz-placeholder { /* Firefox 18- */
+  text-align: center;
+}
+.confirmUserInputText::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;
+}
+.confirmUserInputText:-ms-input-placeholder {
+  text-align: center;
+}
+
+.confirmUserSubmit{
+  width: 49%;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  border:1px solid #669900;
+  border-radius: 30px;
+  background-color: #669900;
+  padding: 2px;
+  font-size: 14px;
+  margin: 15px auto;
+  float: right;
+
+}
+/* ********************************************** */
+.fundingDetails{
+  width: 80%;
+  margin: 2%;
+  float: left;
+  position: relative;
+}
+
+.fundingTabForm{
+  width: 100%;
+  float:left;
+  position:relative;
+  text-align:right;
+}
+
+.fundingTabBody{
+  width: 96%;
+  padding: 15px 0px 15px 15px;
+  position:relative;
+  float: left;
+}
+
+.fundingTabBodyOuter{
+  position:relative;
+  float:left;
+  overflow: auto;
+  width: 75%;
+  height: 85%;
+  margin-top: 4px;
+  color: #ffffff;
+  font-size: 14px;
+
+}
+
+.fundingTabBodyOuter label{
+  color: #669900;
+  font-size: 14px;
+}
+
+.fundingBody{
+  height: 500px !important;
+}
+
+.fundingInnerBody{
+  left: 8%;
+}
+
+.fundingAmtTxt
+{
+  width: 100%;
+  border-radius: 5px;
+  height: 25px;
+  border:1px solid #00305a;
+  color: #00305a;
+
+}
+
+.fundingTableHeader{
+  color: #669900;
+}
+/* ********************************************** */
+.primaryAccountTabForm{
+  width: 100%;
+  text-align: center;
+}
+
+.primaryAccountTab{
+  width: 100%;
+  float:left;
+  position:relative;
+  text-align:right;
+}
+
+.primaryAccountTabBody{
+  width: 97%;
+  padding: 15px 0px 15px 10px;
+  position:relative;
+  float: left;
+}
+
+.primaryAccountTabBodyOuter{
+  position:relative;
+  float:left;
+  overflow: auto;
+  width: 100%;
+  height: 85%;
+  margin-top: 4px;
+  color: #ffffff;
+  font-size: 14px;
+
+}
+
+.primaryAccountTabBodyOuter::-webkit-scrollbar {
+      width: 5px;
+}
+
+.primaryAccountTabBodyOuter::-webkit-scrollbar-track {
+   	background-color: #000000;
+	opacity: 0.2;
+}
+
+.primaryAccountTabBodyOuter::-webkit-scrollbar-thumb {
+     background-color: #cbc9cf;
+}
+
+.primaryAccountTabBodyOuter::-webkit-scrollbar-button {
+
+}
+
+.primaryAccountTabBodyOuter::-webkit-scrollbar-corner {
+      border-radius: 5px;
+}
+
+.primaryAccountTabBody label{
+  color: #669900;
+  font-size: 14px;
+}
+
+
+
+/* ----------------------- */
+input[type=radio] {
+    display:none;
+    margin:10px;
+}
+
+input[type=radio] + label {
+  display:inline-block;
+  margin:-2px;
+  padding: 1px 30px;
+  background: url("./../images/bullet.png") no-repeat;
+  height: 20px;
+}
+
+input[type=radio]:checked + label {
+  background-image: url("./../images/active-bullet.png");
+}
+
+input[type=radio] + label a{
+  font-style: italic !important;
+  color: white !important;
+  font-size: 14px !important;
+}
+
+/* ----------------------- */
+
+input[type=checkbox].css-checkbox
+{
+  position:absolute;
+  z-index:-1000;
+  left:-1000px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height:1px;
+  width:1px;
+  margin:-1px;
+  padding:0;
+  border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label
+{
+  padding-left:21px;
+  height:16px;
+  display:inline-block;
+  line-height:20px;
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  font-size:14px;
+  vertical-align:middle;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label
+{
+  background-position: 0 -16px;
+}
+
+label.css-label
+{
+  background-image:url("./../images/checkBox.png");
+}
+/* ----------------------- */
+
+#tabSuggested, #tabPopular, #tabNewProducts{
+  display:none;
+}
+
+.tabInfoTable{
+  width: 100%;
+  text-align: left;
+}
+
+.tabInfoTable th{
+  border-bottom: 1px solid #cbc9cf;
+  font-weight: normal;
+}
+
+
+/* ********************************************* */
+.fundingTable{
+  width: 80%;
+}
+
+.fundingTableWriteCheck{
+  width: 65%;
+}
+
+
+.fundingNav {
+	position:relative;
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style:none;
+	line-height:1em;
+}
+
+.fundingNav li {
+	float:left;
+	margin:0;
+	padding:0;
+	width: 50%;
+}
+
+.tabFirstChild{
+  border-radius: 5px;
+}
+
+.fundingNav a {
+  width:100%;
+  display:block;
+  color:#00305a;
+  text-decoration:none;
+  font-weight:bold;
+  background:#669900;
+  margin:0;
+  padding:10px 0;
+  text-align:center;
+  font-size: 14px;
+
+}
+
+.fundingNav a.active {
+  background:#00305a;
+  color: #669900;
+}
+
+.fundingNav a:hover{
+  background:#00305a;
+  color: #669900;
+}
+
+.tabCreditCardInput{
+  background-color: #8098ad;
+  height: 30px;
+  border:none;
+  border-radius: 5px;
+  text-align:center;
+  color: #00305a;
+}
+
+.tabCreditCardInput::-webkit-input-placeholder {
+  text-align: center;
+  color: #00305a;
+}
+.tabCreditCardInput::-moz-placeholder { /* Firefox 18- */
+  text-align: center;
+  color: #00305a;
+}
+
+.tabCreditCardInput::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;
+  color: #00305a;
+}
+.tabCreditCardInput::-ms-input-placeholder {
+  text-align: center;
+  color: #00305a;
+}
+
+.tabCreditCardInputLarge{
+    width: 260px;
+}
+
+.tabCreditCardInputSmall{
+    width: 80px;
+}
+
+.cvvText{
+  font-size: 14px;
+}
+
+.fundingMakePayment{
+  float: left;
+  position: relative;
+  top: 90px;
+  left: 15px;
+  text-align: center;
+
+}
+
+.fundingMakePayment a{
+  color: #ffffff !important;
+}
+.fundingMakePaymentBtn{
+  width: 132px;
+  height: auto;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  border:1px solid #669900;
+  border-radius: 30px;
+  background-color: #669900;
+  padding: 10px;
+  font-size: 14px;
+  margin: 15px auto;
+  position:relative;
+  float:left;
+  height: 15px;
+  line-height: 15px;
+}
+
+#tabWriteCheck{
+  display: none;
+}
+
+/* ********************************************* */
+.primaryAccountNav {
+	position:relative;
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style:none;
+	line-height:1em;
+}
+
+.primaryAccountNav li {
+	float:left;
+	margin:0;
+	padding:0;
+	width: 25%;
+}
+
+.tabFirstChild{
+  border-radius: 5px;
+}
+
+.primaryAccountNav a {
+  width:100%;
+  display:block;
+  color:#00305a;
+  text-decoration:none;
+  font-weight:bold;
+  background:#669900;
+  margin:0;
+  padding:10px 0;
+  text-align:center;
+  font-size: 14px;
+
+}
+
+.primaryAccountNav a.active {
+  background:#00305a;
+  color: #669900;
+}
+
+.primaryAccountNav a:hover{
+  background:#00305a;
+  color: #669900;
+}
+
+
+/* ********************************************** */
+.termsTable{
+  width: 100%;
+}
+
+.termsTable td{
+  height: 120px;
+  background-color: #669900;
+  color: #00305a;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.termsLinkTable{
+  width: 100%;
+}
+
+.termsLinkTable td{
+  padding: 0px 10px;
+}
+
+.termsLinkTable a{
+  text-decoration: underline;
+  color: #00305a;
+  font-size: 14px;
+}
+
+.termsCheckboxTable td{
+  padding: 20px 15px;
+  color: #00305a;
+}
+
+/* ********************************************** */
+
+.fullWidthOuter{
+  float: left;
+  position: relative;
+  width: 75%;
+  padding: 0 20px;
+  margin: 0 0 25px 0;
+}
+
+.fullWidthOuter p{
+  color: #00305a;
+}
+
+.fullWidthOuter table{
+  width:100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.fullWidthOuter table a{
+  text-decoration: underline;
+}
+
+.fullWidthOuter th{
+  border-bottom: 1px solid #669900;
+  color: #669900;
+}
+
+.accountSummaryTitleSection{
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 1%;
+  color: #00305a;
+}
+
+
+.accountleftNav{
+  float: left;
+  position:relative;
+  width: 17%;
+  padding: 0 2px 0 18px;
+  border-right: 1px solid rgba(0, 48, 90, 0.06);
+  font-size: 14px;
+}
+
+.accountleftNav a:hover{
+  color: #669900;
+}
+
+.accountleftNav a.active{
+  color: #669900;
+  font-weight: bold;
+}
+
+.accountleftNav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  right: 0px;
+}
+
+.accountleftNav ul li{
+  margin: 10px 0;
+}
+
+.accountleftNav ul li{
+  margin: 10px 0;
+}
+
+.accountleftNav ul li a:hover{
+  text-decoration: underline;
+}
+
+/* ********************************************** */
+.applicationTrackerTitle{
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 1%;
+  color: #00305a;
+}
+
+.applicationTrackerFullWidth{
+  width: 95% !important;
+  height: 200px;
+  margin-top: 50px;
+}
+
+/* ********************************************** */
+.footer-utility-layer{
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+
+.callIcon{
+  position:relative;
+  float: left;
+  width: 50%;
+}
+
+.helpIcon{
+  position:relative;
+  float: left;
+  width: 50%;
+  text-align:right;
+}
+
+.footer-wrapper{
+  width: 100%;
+  float: left;
+  position: relative;
+  background-color: #669900;
+  padding-top: 30px;
+}
+
+.footerApplicationID{
+  position:relative;
+  left: 60px;
+  top: 25px;
+  font-size: 14px;
+  color: #00305a;
+  font-style: italic;
+  width: 25%;
+}
+
+.footer-copyright-layer{
+  bottom: 0px;
+  float: right;
+  width: 100%;
+  height: 30px;
+  background-image: url("./../images/footer_bg.png");
+  background-repeat: no-repeat;
+  clear: both;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 10;
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+  display: table;
+  overflow: hidden;
+}
+
+.copyright-innerContainer{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #00305a;
+  text-align: center;
+}
+
+.copyright-innerContainer a{
+  text-decoration: underline;
+  font-size: 14px;
+}
+.appbody{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+        margin-bottom: 10px;
+}
+.appNav{
+  width: 20%;
+  background-color: #c8ee91;
+  margin-right: 10px;
+  padding: 20px;
+}
+.appNav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  right: 0px;
+}
+.appNav li{
+      height: 30px;
+}
+.appContent{
+  width: 100%;
+background-color: white;
+padding: 20px;
+}
+.mainBody button{
+  background-color: #53c0b6;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
